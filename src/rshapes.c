@@ -400,7 +400,7 @@ void DrawCircleSectorLines(Vector2 center, float radius, float startAngle, float
 
     float stepLength = (endAngle - startAngle)/(float)segments;
     float angle = startAngle;
-    bool showCapLines = true;
+    bool showCapLines = false;
 
     rlBegin(RL_LINES);
         if (showCapLines)
